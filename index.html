@@ -16,7 +16,6 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
@@ -27,7 +26,8 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title">Nerea Díaz Jérica</h1>
                 <h6 class="header-mono" >Videogame developer & designer | Student</h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>CV</button>
+                <button class="btn btn-primary btn-rounded" onclick="window.open('assets/MYimages/NereaDiazJerica_CV.pdf');"><i class="ti-printer pr-2"></i>CV</button>
+
             </div>
         </div>
     </header>
@@ -49,7 +49,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="assets/MYimages/avatar.jpg" alt="" class="brand-img">
+                    <!--img src="assets/MYimages/avatar.jpg" alt="" class="brand-img"-->
                     <li class="brand-txt">
                         <h5 class="brand-title">Nerea Díaz</h5>
                         <div class="brand-subtitle">Videogame Developer and Designer | Student</div>
@@ -79,7 +79,7 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Videogame Designer / Developer Student.</h5>
                 <p class="mt-20">Passionate about 3D world and with the desire of making people leave the best experiences they can dream of.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <button class="btn btn-outline-danger" onclick="window.open('assets/MYimages/NereaDiazJerica_CV.pdf');"><i class="icon-down-circled2 "></i>Download My CV</button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -263,7 +263,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="row ">
                         <div class="col-5 text-center text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                            <div class="m-auto"><i class="fa-solid fa-graduation-cap icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-center py-3">
                             <h1 class="text-danger font-weight-bold font40">96/240</h1>
@@ -274,7 +274,7 @@
                 <div class="col-md-6 col-lg-3 text-left-margin">
                     <div class="row">
                         <div class="col-5 text-center text-light border-right py-3 ">
-                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                            <div class="m-auto"><i class="fa-regular fa-file-lines icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-center py-3">
                             <h1 class="text-danger font-weight-bold font40">1,69</h1>
@@ -349,7 +349,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                            <i class="fa-light fa-head-side-brain text-danger" aria-hidden="true"></i>
+                            <i class="fa-solid fa-gear text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Creative</h5>
@@ -360,7 +360,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                            <i class="fa-solid fa-graduation-cap text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Quick learning</h5>
@@ -371,7 +371,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                            <i class="ti-support text-danger" aria-hidden="true"></i>
+                            <i class="fa-solid fa-people-group text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Team work</h5>
@@ -811,15 +811,15 @@
             <div class="row">
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/MYimages/avatar.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="assets/MYimages/istockphoto-600090774-612x612.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h6 class="title">Creating my new website</h6>
 
                         <p class="post-details">
                             <a href="#">By: Nerea</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
+                            <!--a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a-->
                         </p>
                         
                         <p>Wellcome to my new Website, my little nook were you could know me a little better.</p>
@@ -827,15 +827,16 @@
                         <p><b>I'll be updating it with my new projects, draws, job news, etc.</b></p>
                         <p>I hope you enjoy watching all of my work!</p>
 
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                        <a href="index.html" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div><!-- end of blog wrapper -->
             </div>
         </div>
     </section>
 
-    <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
+
+    <div class="section contact bg-dark" id="contact">
+        <div class=" text-center"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -865,7 +866,7 @@
                                 <i class="ti-mobile icon-md"></i>
                             </div>
                             <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+34 628 48 23 70</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -873,7 +874,7 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB Country.</span></h6>
+                                <h6 class="d-inline">Location :<br> <span class="text-muted">Madrid, Spain.</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -881,15 +882,12 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">nerea.dzjrc@gmail.com</span></h6>
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.instagram.com/itsnerea.draws/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://github.com/Ndj-13"><i class="ti-github" aria-hidden="true"></i></a></li>
                         </ul> 
                     </div>
                 </div>
