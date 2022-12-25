@@ -11417,7 +11417,7 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 180px;
+  max-width: 60px;
 }
 
 .social-icons .social-link {
@@ -11426,6 +11426,10 @@ pre .code {
 
 .social-icons .social-link:hover {
   color: #F85C70;
+}
+
+.resize-icon{
+  font-size: 24px;
 }
 
 .navbar {
