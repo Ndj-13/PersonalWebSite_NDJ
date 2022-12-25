@@ -11780,7 +11780,7 @@ pre .code {
  ----------------------------*/
  .nk-image-slider {
   position: relative;
-  height: 727px;
+  height: 700px;
   overflow: hidden;
   background-color: #232930;
   border-bottom: 3px solid #FF7FE5;
@@ -11895,4 +11895,8 @@ pre .code {
   background-color: #fff;
   border-radius: 50%;
   z-index: 1;
+}
+
+.slider-scale{
+  scale: 80%;
 }
