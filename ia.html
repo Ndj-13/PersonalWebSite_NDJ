@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with JohnDoe landing page.">
     <meta name="author" content="Devcrud">
-    <title>Nerea Díaz Jérica | I-Scream</title>
+    <title>Nerea Díaz Jérica | Artificial Inteligence</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendor/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
-	<link rel="stylesheet" href="assets/css/iscream.css">
+	<link rel="stylesheet" href="assets/css/ia.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,700" rel="stylesheet" type="text/css">
 
@@ -87,61 +87,41 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <img class="header-title-image" src="assets/IScream/LogoI-Scream.png">
-                <h6 class="header-mono" >Game developed by a group of students from Universidad Rey Juan Carlos, Spain.</h6>
+                <h1 class="header-title">Machine Learning</h1>
+                <h6 class="header-mono" >Program that implements different searching algorithms to find the goal by searched-based agents and machine learning.</h6>
             </div>
         </div>
     </header>
-
-    <section class="section" id="tech">
-    <div class="container">
-        <!-- START: Image Slider -->
-        <div class="nk-image-slider slider-scale" data-autoplay="8000">
-        <div class="nk-image-slider-item">
-            <img src="assets/IScream/PantallaInicio.png" alt="" class="nk-image-slider-img" data-thumb="assets/IScream/PantallaInicio-slide.png">
-            
-        </div>
-        <div class="nk-image-slider-item">
-            <img src="assets/IScream/Charact-select.png" alt="" class="nk-image-slider-img" data-thumb="assets/IScream/Charact-select-slide.png">
-            
-        </div>
-        <div class="nk-image-slider-item">
-            <img src="assets/IScream/Game-screen.png" alt="" class="nk-image-slider-img" data-thumb="assets/IScream/Game-screen-slide.png">
-            
-        </div>
-        <div class="nk-image-slider-item">
-            <img src="assets/IScream/HighScores.png" alt="" class="nk-image-slider-img" data-thumb="assets/IScream/HighScores-slide.png">
-        </div>
-        </div>
-    </div>
-    </section>
 
     <section class="section" id="info">
         <div class="container">
 
             <h2 class="mb-5"><span class="text-danger-is">Technical</span> Sheet</h2>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3 cursive">Code technologies I got involved with while working on this project.</h5>
+                <h5 class="mb-3 cursive">This project is divided in two excercises.</h5>
+                <h5 class="mb-3 cursive">1. A-Star algorithm</h5>
+                <p class="mb-3">It implements the A Star Mind algorithm that searches Offline a path to the goal. This algorithm just requires the following methods:</p>
                 <ul class="mb-3">
-                    <li class="pointer-list">Game design</li>
-                    <li class="pointer-list">HTML5</li>
-                    <li class="pointer-list">JavaScript</li>
-                    <li class="pointer-list">CSS</li>
-                    <li class="pointer-list">Phaser 3</li>
-                    <li class="pointer-list">Back-end</li>
-                    <li class="pointer-list">REST tecnology</li>
+                    <li class="pointer-list">Search(): starting from the character position node, it searches between it's neightbours the best heuristic until getting to the goal</li>
+                    <li class="pointer-list">GetNextMove(): starting from the goal, it goes back to the start, following the best heuristics calculated and saving them in a stack that once is completed, return the next move to the character.</li>
+                    <li class="pointer-list">Repath(): it cleans the stack.</li>
+                </ul>
+                <h5 class="mb-3 cursive">2. Q-learning</h5>
+                <p class="mb-3">It implements the Q-learning algorithm, a reinforcement learning method that motivates the agent to take a decision above an action according to the actual state. It requires the following methods:</p>
+                <ul class="mb-3">
+                    <li class="pointer-list">Learning(): a random cell and action are selected and the agent calculates the Q value according to the learning rule. This process is repeatted until the machine has gone through the table several times to get the best Q values, that are saved in a table.</li>
+                    <li class="pointer-list">Explote(): moves the character util the goal, following on each cell the best Q value action.</li>
                 </ul>
         </div>
     </section>
-
     <section class="section" id="git">
         <div class="container">
             <h2 class="mb-5"><span class="text-danger-is">Github</span> Repository</h2>
                 <span class="line mb-5"></span>
                 <div class="single-line">
                     <h5 class="mb-3">Find the complete code on Github:
-                        <a href="https://github.com/Ndj-13/I-Scream.git">
-                            <h5 class="mb-3 cursive">https://github.com/Ndj-13/I-Scream.git</h5>
+                        <a href="https://github.com/Ndj-13/PracticaIA.git">
+                            <h5 class="mb-3 cursive">https://github.com/Ndj-13/PracticaIA.git</h5>
                         </a>
                     </h5>
                 </div>
