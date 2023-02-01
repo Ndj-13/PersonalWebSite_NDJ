@@ -11609,7 +11609,7 @@ pre .code {
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
   margin-bottom: 40px;
   text-align: center;
-  color: #1c1717;
+  color: #d8d7d7;
   font-weight: bold;
 }
 
