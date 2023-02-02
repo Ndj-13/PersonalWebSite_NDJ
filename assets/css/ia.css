@@ -209,6 +209,13 @@ img {
   border-style: none;
 }
 
+video {
+  position: relative;
+  padding-top: 1.5rem;
+  height: 440px;
+  width: 800px;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
